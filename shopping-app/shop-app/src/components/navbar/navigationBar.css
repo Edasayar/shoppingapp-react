@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: rgb(7, 6, 6);
+    padding: 10px 20px;
+    position: fixed;
+    height: 50px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    background: linear-gradient(to top, #35435e, #a7a56e, #35435e);
+
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: auto;
+    padding-left: 10px;
+    font-family: 'Noto Serif', serif;
+    color: rgb(213, 180, 16);
+    text-align: start;
+    font-size:28px;
+    margin-top: 30px;
+    text-shadow: 5px 1px 6px rgba(0, 0, 0, 5); /* Gölge efekti ekle */
+  }
+  
+  
+  .navbar a {
+    color: #060505;
+    text-decoration: none;
+    font-family: 'Noto Serif', serif;
+    margin-left: 20px;
+    font-size: medium;
+    transition: transform 0.3s;
+    block-size: 30%;
+  }
+  
+  .navbar a:hover {
+    color: rgb(216, 213, 213);
+  }
+  

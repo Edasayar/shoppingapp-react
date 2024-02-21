@@ -1,0 +1,43 @@
+.basket {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .basket h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+  }
+  
+  .basket ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .basket li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .basket li:last-child {
+    border-bottom: none;
+  }
+  
+  .basket button {
+    padding: 8px 12px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .basket button:hover {
+    background-color: #d32f2f;
+  }
+  

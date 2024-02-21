@@ -1,0 +1,131 @@
+/* Ana kart yapısı */
+.shop-card {
+  position: relative; /* Konumlandırma için parent elemente göre ayarlamalar yapmak için */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  background: #a7a56e;
+  overflow: hidden;
+  border-radius: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+ 
+  text-align: center;
+  max-width: 300px;
+  height: 450px;
+  text-shadow: 5px 1px 6px rgba(0, 0, 0, 0.3);
+  
+}
+
+/* Kart içeriği */
+.card {
+  border-radius: 0 0 20px 20px;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+  
+  
+}
+
+/* Ürün resmi */
+.card img {
+  margin-left: 5px;
+  width: 100%;
+  height: 250px;
+  width: 280px;
+  border-radius: 30px;
+  margin-bottom: 15px;
+  
+ 
+  
+
+}
+
+/* Başlık */
+.card h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-family: 'Noto Serif', serif;
+}
+
+/* Açıklama */
+.card p {
+  font-size:14px;
+  margin-bottom: 10px;
+  font-family: 'Noto Serif', serif;
+  margin-top: 0;
+}
+
+/* Fiyat ve sepete ekle */
+.price-add-to-basket {
+  position: absolute; /* Sabit konumlandırma için */
+  bottom:10px; /* Alt boşluk ayarı */
+  left: 50%; /* Orta hizalama için */
+  transform: translateX(-50%); /* Orta hizalama için */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.price-add-to-basket h6 {
+  margin-right: 10px;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+  font-family: 'Noto Serif', serif;
+}
+
+.price-add-to-basket button {
+  height:40px;
+  padding: 5px 30px;
+  margin-top: 60px;
+  margin-left: 90px;
+  font-family: 'Noto Serif', serif;
+  background-color: #a41e1e;
+  color: #070606;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.price-add-to-basket button:hover {
+  background-color: #35435e;
+  color: azure;
+}
+.price-add-to-basket button img {
+  width: 25px;
+  height: 25px;
+  border-radius: 0;
+  margin-right: -20px;
+  margin-top:3px;
+  
+  
+}
+
+/* Resim galerisi */
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  padding-bottom: 20px;
+}
+
+/* Her bir ürün resmi */
+.image-gallery img {
+  width: 80px;
+  height: 80px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Aktif ürün resmi */
+.image-gallery img.active {
+  border: 2px solid #333;
+}
+

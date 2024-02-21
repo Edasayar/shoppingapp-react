@@ -1,0 +1,33 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    padding: 20px;
+  }
+
+  .product-list {
+    width: 80%; /* Slaytın yer alacağı genişlik */
+    margin: 0 auto; /* Ortalamak için */
+  
+    .slick-slider {
+      margin: 0 auto; /* Slaytı ortalamak için */
+      width: 100%; /* Slaytın genişliği */
+      margin-left: -5px;
+  
+      .slick-slide div {
+        padding: 0 5px; /* Kartlar arasındaki boşluklar */
+      }
+    }
+  
+    .slick-dots {
+      bottom: -15px; /* Noktaların konumu - istediğiniz yere ayarlayabilirsiniz */
+      
+    }
+  
+    .slick-dots li {
+      margin: 0 5px; /* Noktalar arasındaki boşluk */
+    }
+  }
+  
